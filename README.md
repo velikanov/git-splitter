@@ -1,4 +1,4 @@
 git-splitter
 ============
 
-Git Spl
+Git Splitter
