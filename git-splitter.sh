@@ -20,6 +20,9 @@ do
 	subrepository_remote_name=`echo "${subrepository_name}-${subrepositories_suffix}" | awk '{print tolower($0)}'`
 	subrepository_name=${subrepository_name}${subrepositories_suffix}
 
+	echo "Processing ${subrepository_name}"
+	echo ""
+
 	directory_for_split=${directory_with_splits}/${subrepository_name}
 
 	git filter-branch -f --prune-empty --subdirectory-filter ${directory_for_split} master
