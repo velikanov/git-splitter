@@ -2,7 +2,7 @@ if [ -e $4 ]; then
 	echo 'Git Splitter tool - split your repository in subrepositories easily'
 	echo 'Usage:'
 	echo './git-splitter.sh <repository_directory> <directory_with_splits> <git_repositories_wildcard> <subrepositories_suffix>'
-	echo 'example: ./git-splitter.sh ~/www/Orkestro src/Orkestro git@github.com:Orkestro Bundle'
+	echo 'example: ./git-splitter.sh ~/www/OrkestroDev src/Orkestro git@github.com:Orkestro Bundle'
 
 	exit
 fi
